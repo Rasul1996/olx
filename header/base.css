@@ -1,0 +1,17 @@
+header {
+    background-color: var(--primary-color);
+    height: 71px;
+    display: flex;
+    justify-content: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1077px;
+}
+
