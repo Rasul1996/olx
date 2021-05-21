@@ -1,0 +1,32 @@
+.category-box {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-image {
+    border-radius: 50%;
+    background-color: #ffce32;
+    width: 88px;
+    height: 88px;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.category-title {
+    margin-top: 1.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.07s;
+}
+
+.category-title:hover {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
