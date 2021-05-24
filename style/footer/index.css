@@ -1,18 +1,2 @@
-.top-footer {
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.top-footer-title {
-    color: var(--text-color);
-    margin: 0 2rem;
-}
-
-.top-footer-btn {
-    cursor: pointer;
-    padding: 0.5rem 2.5rem;
-    color: var(--primary-color);
-    background-color: #ffffff;
-}
+@import "./top.css";
+@import "./middle.css";
