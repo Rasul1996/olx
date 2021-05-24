@@ -1,0 +1,35 @@
+@import "./card.css";
+
+.cards-section {
+    margin-top: 1rem;
+    padding: 3rem 0;
+    background-color: var(--gray-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.seeAllBtn {
+    box-sizing: border-box;
+    border: none;
+    outline: 3px solid var(--primary-color);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.seeAllBtn:hover {
+    outline-width: 9px;
+}
